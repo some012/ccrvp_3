@@ -14,6 +14,7 @@ const menuItems = [
   {id: 2, text: "Лаб работа 2", path: "lab/2"},
   {id: 3, text: "Лаб работа 4", path: "lab/4"},
   {id: 4, text: "Лаб работа 5", path: "lab/5"},
+  {id: 5, text: "Лаб работа 6", path: "lab/6"}
 ]
 
 function App() {
