@@ -1,0 +1,40 @@
+.b-button {
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
+  border-style: double;
+  border-color: #ffffff;
+  color: white;
+}
+
+
+
+.b-button__color-blue {
+  background-color: #1976D2;
+}
+
+.b-button__color-green {
+  background-color: #43A047;
+}
+
+.b-button__color-red {
+  background-color: #E53935;
+}
+
+.b-button__color-black {
+  background-color: black;
+}
+
+
+@media only screen and (orientation: portrait) and (min-device-width < 428px) and (max-device-height < 926px) and (-webkit-device-pixel-ratio: 3){
+  .b-button {
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+    border-style: double;
+    border-color: #ffffff;
+    color: white;
+  }
+  
+}
+ 
