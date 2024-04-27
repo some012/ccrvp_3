@@ -4,12 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "test": "jest",
     "start": "node Lab6.jsx",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "jest"
   },
   "dependencies": {
     "@emotion/react": "^11.11.3",
@@ -20,12 +20,14 @@
     "@mui/icons-material": "^5.15.10",
     "@mui/material": "^5.15.10",
     "@mui/styled-engine-sc": "^6.0.0-alpha.16",
-    "@reduxjs/toolkit": "^2.2.1",
+    "@reduxjs/toolkit": "^2.2.3",
     "axios": "^1.6.8",
     "bootstrap": "^5.3.3",
     "cors": "^2.8.5",
+    "enzyme": "^3.11.0",
     "express": "^4.19.2",
     "formik": "^2.4.5",
+    "jest-environment-jsdom": "^29.7.0",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.4",
     "pg": "^8.11.5",
@@ -35,12 +37,17 @@
     "react-dnd": "^16.0.1",
     "react-dom": "^18.2.0",
     "react-fontawesome": "^1.7.1",
+    "react-loading": "^2.0.3",
     "react-redux": "^9.1.0",
     "react-router-dom": "^6.22.1",
+    "react-test": "^0.21.1",
+    "react-test-renderer": "^18.3.1",
     "sort-by": "^0.0.2",
     "styled-components": "^6.1.8"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.24.4",
+    "@babel/preset-react": "^7.24.1",
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
     "@vitejs/plugin-react": "^4.2.1",

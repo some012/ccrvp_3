@@ -6,3 +6,23 @@
 .user {
     margin: 20px;
 }
+
+.loading {
+    margin-left: 550px;
+    margin-top: 200px;
+    margin-bottom: 500px;
+}
+
+.error {
+    margin-left: 550px;
+    margin-top: 200px;
+    margin-bottom: 500px;
+    font-size: 30px;
+}
+
+.fetch {
+    margin-left: 550px;
+    margin-top: 200px;
+    margin-bottom: 500px;
+    font-size: 30px;
+}
